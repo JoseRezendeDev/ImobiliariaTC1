@@ -1,7 +1,10 @@
+package model;
+
 import java.util.Date;
 import java.util.List;
 
 public class Cliente {
+    // chave primaria
     private String cpf;
     private String nome;
     private Date dataNascimento;
