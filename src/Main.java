@@ -124,13 +124,26 @@ public class Main {
         System.out.println("\n");
         System.out.println("Valor aluguel: " + imovel.getValorAluguel());
         System.out.println("Valor condomínio: " + imovel.getValorCondominio());
+        System.out.println("\n\n");
+    }
+
+    public static void exibirInformacoesCliente(Cliente cliente){
+        System.out.println("Nome: "+cliente.getNome());
+        System.out.println("CPF: " + cliente.getCpf());
+        System.out.println("Data de nascimento: " + cliente.getDataNascimento());
+        System.out.println("Sexo: " + cliente.getSexo());
+        System.out.println("Salário: " + cliente.getSalario());
+        System.out.println("\n\n");
     }
 
     private static void listarTodosClientes() {
         List<Cliente> clientes = clienteDAO.getClientes();
+        System.out.println("_________ Lista de clientes _________");
         for (Cliente cliente : clientes) {
             // CHAMAR METODO QUE LISTA UM CLIENTE
+            exibirInformacoesCliente(cliente);
         }
+        System.out.println("___________________");
     }
 
     private static void listarUmCliente() {

@@ -14,7 +14,7 @@ public class ImovelDAO {
 
     public Boolean incluirImovel(Imovel imovelNovo){
         for(Imovel imovel : imovelList){
-            if(imovel.getCodigo().equals(imovelNovo.getCodigo())){
+            if(imovel != null && imovel.getCodigo().equals(imovelNovo.getCodigo())){
                 // Já existe um imovel com esse código
                 return false; // interrompe o metodo
             }
@@ -55,7 +55,7 @@ public class ImovelDAO {
 
     public Boolean excluirImovel(String codigo){
         for(Imovel imovel : imovelList){
-            if(imovel.getCodigo().equals(codigo)){
+            if(imovel!= null && imovel.getCodigo().equals(codigo)){
                 imovelList.remove(imovel);
                 return true;
             }
@@ -66,7 +66,7 @@ public class ImovelDAO {
 
     public Imovel getImovel(String codigo){
         for(Imovel imovel : imovelList){
-            if(imovel.getCodigo().equals(codigo)){
+            if(imovel != null && imovel.getCodigo().equals(codigo)){
                 return imovel;
             }
         }
