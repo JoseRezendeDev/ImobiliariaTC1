@@ -1,6 +1,7 @@
 import dao.ClienteDAO;
 import dao.ImovelDAO;
 import model.Cliente;
+import model.Imovel;
 
 import java.util.List;
 import java.util.Scanner;
@@ -43,23 +44,86 @@ public class Main {
             } else if (opcaoMenu == 2) {
                 switch (opcaoSubmenu) {
                     case 1:
-//                        inserirImovel();
+                        inserirImovel();
                         break;
                     case 2:
-//                        alterarImovel();
+                        alterarImovel();
                         break;
                     case 3:
-//                        excluirImovel();
+                        excluirImovel();
                         break;
                     case 4:
-//                        listarUmImovel();
+                        listarUmImovel();
                         break;
                     case 5:
-//                        listarTodosImoveis();
+                        listarTodosImoveis();
                         break;
                 }
             }
         }
+    }
+
+    private static void inserirImovel(){
+        Imovel imovel = new Imovel();
+        if(imovelDAO.incluirImovel(imovel)){
+            System.out.println("Imóvel incluído com sucesso!");
+        }else{
+            System.out.println("Ops! Algo de errado não deu certo! Verifique as informações do imóvel");
+        }
+    }
+
+    private static void alterarImovel(){
+        Imovel imovel = new Imovel();
+
+        System.out.println("Código do imóvel que deseja alterar: ");
+        String codigo = scanner.next();
+
+        if(imovelDAO.alterarImovel(codigo, imovel)){
+            System.out.println("Imóvel de código "+codigo+" foi alterado com sucesso!");
+        }else{
+            System.out.println("Não foi possível encontrar imóvel com esse código :(");
+        }
+    }
+
+    private static void excluirImovel(){
+        System.out.println("Código do imóvel que deseja excluir: ");
+        String codigo = scanner.next();
+        if(imovelDAO.excluirImovel(codigo)){
+            System.out.println("Imóvel de código "+codigo+" foi excluído com sucesso");
+        }else{
+            System.out.println("Não foi possível excluir imóvel. Código não encontrado");
+        }
+    }
+
+    private static void listarUmImovel(){
+        System.out.println("Código do imóvel que deseja listar: ");
+        String codigo = scanner.next();
+        Imovel imovel = imovelDAO.getImovel(codigo);
+
+        System.out.println("_________ Informações do imóvel _________");
+            exibirInformacoesImovel(imovel);
+        System.out.println("__________________");
+    }
+
+    private static void listarTodosImoveis(){
+        List<Imovel> imovelList = imovelDAO.getImoveis();
+        System.out.println("_________ Lista de imóveis _________");
+        for(Imovel imovel : imovelList){
+            exibirInformacoesImovel(imovel);
+        }
+        System.out.println("_________ Fim da Lista de imóveis _________");
+    }
+
+    public static void exibirInformacoesImovel(Imovel imovel){
+        System.out.println("Tipo do imóvel: " + imovel.getTipo());
+        System.out.println("Descrição: " + imovel.getDescricao());
+        System.out.println("\n");
+        System.out.print("Rua: " + imovel.getRua());
+        System.out.print(", Número: " + imovel.getNumero());
+        System.out.println("Cidade: " + imovel.getCidade());
+        System.out.println("\n");
+        System.out.println("Valor aluguel: " + imovel.getValorAluguel());
+        System.out.println("Valor condomínio: " + imovel.getValorCondominio());
     }
 
     private static void listarTodosClientes() {

@@ -53,9 +53,9 @@ public class ImovelDAO {
         return false;
     }
 
-    public Boolean excluirImovel(Imovel imovelExcluir){
+    public Boolean excluirImovel(String codigo){
         for(Imovel imovel : imovelList){
-            if(imovel.getCodigo().equals(imovelExcluir.getCodigo())){
+            if(imovel.getCodigo().equals(codigo)){
                 imovelList.remove(imovel);
                 return true;
             }
