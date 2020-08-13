@@ -3,6 +3,9 @@ import dao.ImovelDAO;
 import model.Cliente;
 import model.Imovel;
 
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -133,6 +136,12 @@ public class Main {
         System.out.println("Data de nascimento: " + cliente.getDataNascimento());
         System.out.println("Sexo: " + cliente.getSexo());
         System.out.println("Salário: " + cliente.getSalario());
+        System.out.println("Emails: ");
+        for (String s : cliente.getEmails())
+            System.out.println(s);
+        System.out.println("Telefones: ");
+        for (String s : cliente.getTelefones())
+            System.out.println(s);
         System.out.println("\n\n");
     }
 
@@ -140,7 +149,6 @@ public class Main {
         List<Cliente> clientes = clienteDAO.getClientes();
         System.out.println("_________ Lista de clientes _________");
         for (Cliente cliente : clientes) {
-            // CHAMAR METODO QUE LISTA UM CLIENTE
             exibirInformacoesCliente(cliente);
         }
         System.out.println("___________________");
@@ -150,8 +158,11 @@ public class Main {
         System.out.println("CPF do cliente que deseja listar:");
         String cpf = scanner.next();
         Cliente cliente = clienteDAO.getCliente(cpf);
-
-        // FAZER METODO QUE LISTA UM CLIENTE
+        if (cliente != null)
+            exibirInformacoesCliente(cliente);
+        else {
+            System.out.println("Cliente não encontrado");
+        }
     }
 
     private static void excluirCliente() {
@@ -161,27 +172,126 @@ public class Main {
     }
 
     private static void alterarCliente() {
-        Cliente cliente = new Cliente();
-
         System.out.println("CPF do cliente que deseja alterar: ");
         String cpf = scanner.next();
 
-        // PEGAR OS DADOS ATUALIZADOS DO CLIENTE E SETAR NO OBJETO CLIENTE
+        boolean existeCliente = clienteDAO.getCliente(cpf) != null;
+
+        if (!existeCliente) {
+            System.out.println("Cliente não encontrado");
+            return ;
+        }
+
+        Cliente cliente = new Cliente();
+
+        System.out.println("Nome: ");
+        cliente.setNome(scanner.next());
+        System.out.println("CPF: ");
+        cliente.setCpf(scanner.next());
+
+        System.out.println("Data de nascimento: ");
+        boolean dataValida = false;
+        while (!dataValida) {
+            try {
+                cliente.setDataNascimento(scanner.next());
+                dataValida = true;
+            } catch (ParseException e) {
+                System.out.println("Data inválida, digite novamente:");
+            }
+        }
+
+        System.out.println("Sexo: ");
+        boolean sexoValido = false;
+        while (!sexoValido) {
+            try {
+                cliente.setSexo(scanner.next());
+                sexoValido = true;
+            } catch (Exception e) {
+                System.out.println("Sexo inválido, digite novamente: ");
+            }
+        }
+
+        System.out.println("Salário: ");
+        cliente.setSalario(scanner.nextDouble());
+        System.out.println("Emails (q para terminar): ");
+
+        List<String> emails = new ArrayList<>();
+        String email = scanner.next();
+        while (!email.equalsIgnoreCase("q")) {
+            emails.add(email);
+            email = scanner.next();
+        }
+        cliente.setEmails(emails);
+
+        System.out.println("Telefones (q para terminar): ");
+        List<String> telefones = new ArrayList<>();
+        String telefone = scanner.next();
+        while (!telefone.equalsIgnoreCase("q")) {
+            telefones.add(telefone);
+            telefone = scanner.next();
+        }
+        cliente.setTelefones(telefones);
 
         clienteDAO.alterarCliente(cpf, cliente);
     }
 
     private static void inserirCliente() {
         Cliente cliente = new Cliente();
+        System.out.println("INSERIR CLIENTE");
+        System.out.println("Nome: ");
+        cliente.setNome(scanner.next());
+        System.out.println("CPF: ");
+        cliente.setCpf(scanner.next());
 
-        // PEGAR OS DADOS DO NOVO CLIENTE E SETAR NO OBJETO CLIENTE
+        System.out.println("Data de nascimento: ");
+        boolean dataValida = false;
+        while (!dataValida) {
+            try {
+                cliente.setDataNascimento(scanner.next());
+                dataValida = true;
+            } catch (ParseException e) {
+                System.out.println("Data inválida, digite novamente:");
+            }
+        }
+
+        System.out.println("Sexo: ");
+        boolean sexoValido = false;
+        while (!sexoValido) {
+            try {
+                cliente.setSexo(scanner.next());
+                sexoValido = true;
+            } catch (Exception e) {
+                System.out.println("Sexo inválido, digite novamente: ");
+            }
+        }
+
+        System.out.println("Salário: ");
+        cliente.setSalario(scanner.nextDouble());
+        System.out.println("Emails (q para terminar): ");
+
+        List<String> emails = new ArrayList<>();
+        String email = scanner.next();
+        while (!email.equalsIgnoreCase("q")) {
+            emails.add(email);
+            email = scanner.next();
+        }
+        cliente.setEmails(emails);
+
+        System.out.println("Telefones (q para terminar): ");
+        List<String> telefones = new ArrayList<>();
+        String telefone = scanner.next();
+        while (!telefone.equalsIgnoreCase("q")) {
+            telefones.add(telefone);
+            telefone = scanner.next();
+        }
+        cliente.setTelefones(telefones);
 
         clienteDAO.inserirCliente(cliente);
     }
 
     private static int exibirMenu() {
         System.out.println();
-        System.out.println("============= MENU PRINCIPAL =============");
+        System.out.println("+++++++++++++ MENU PRINCIPAL +++++++++++++");
         System.out.println("1. Submenu de Clientes");
         System.out.println("2. Submenu de Imóveis");
         System.out.println("3. Sair");

@@ -2,6 +2,7 @@ package dao;
 
 import model.Cliente;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,12 +20,16 @@ public class ClienteDAO {
     public void alterarCliente(String cpf, Cliente clienteAtualizado) {
         for (Cliente cliente : clientes) {
             if (cliente.getCpf() == cpf) {
-                cliente.setDataNascimento(clienteAtualizado.getDataNascimento());
-                cliente.setNome(clienteAtualizado.getNome());
-                cliente.setSalario(clienteAtualizado.getSalario());
-                cliente.setSexo(clienteAtualizado.getSexo());
-                cliente.setEmails(clienteAtualizado.getEmails());
-                cliente.setTelefones(clienteAtualizado.getTelefones());
+                try {
+                    cliente.setDataNascimento(clienteAtualizado.getDataNascimento().toString());
+                    cliente.setNome(clienteAtualizado.getNome());
+                    cliente.setSalario(clienteAtualizado.getSalario());
+                    cliente.setSexo(clienteAtualizado.getSexo().toString());
+                    cliente.setEmails(clienteAtualizado.getEmails());
+                    cliente.setTelefones(clienteAtualizado.getTelefones());
+                } catch (Exception e) {
+                    System.out.println("Falha ao alterar cliente");
+                }
             }
         }
     }
@@ -35,7 +40,7 @@ public class ClienteDAO {
 
     public Cliente getCliente(String cpf) {
         for (Cliente cliente : clientes) {
-            if (cliente.getCpf() == cpf) {
+            if (cliente.getCpf().equalsIgnoreCase(cpf)) {
                 return cliente;
             }
         }

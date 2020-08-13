@@ -1,12 +1,14 @@
 package model;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
 public class Cliente {
+    private String nome;
     // chave primaria
     private String cpf;
-    private String nome;
     private Date dataNascimento;
     private Enum<Sexo> sexo;
     private Double salario;
@@ -29,20 +31,27 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public Date getDataNascimento() {
-        return dataNascimento;
+    public String getDataNascimento() {
+        return new SimpleDateFormat().format(dataNascimento);
     }
 
-    public void setDataNascimento(Date dataNascimento) {
-        this.dataNascimento = dataNascimento;
+    public void setDataNascimento(String dataNascimento) throws ParseException {
+        this.dataNascimento = new SimpleDateFormat("dd/MM/yyyy").parse(dataNascimento);
     }
 
     public Enum<Sexo> getSexo() {
         return sexo;
     }
 
-    public void setSexo(Enum<Sexo> sexo) {
-        this.sexo = sexo;
+    public void setSexo(String sexo) throws Exception {
+        if (sexo.equalsIgnoreCase("m") || sexo.equalsIgnoreCase("masculino")) {
+            this.sexo = Sexo.MASCULINO;
+        } else if (sexo.equalsIgnoreCase("f") || sexo.equalsIgnoreCase("feminino")) {
+            this.sexo = Sexo.FEMININO;
+        } else {
+            throw new Exception();
+        }
+
     }
 
     public Double getSalario() {
