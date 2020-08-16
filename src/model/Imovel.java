@@ -1,5 +1,7 @@
 package model;
 
+import java.util.List;
+
 public class Imovel {
     // chave primaria
     private String codigo;
@@ -15,7 +17,7 @@ public class Imovel {
     private int quantidadeGaragens;
     private int quantidadeSuites;
     private int quantidadeQuartos;
-    private String quantidadeSeguranca;
+    private List<String> itensSeguranca;
     private double valorAluguel;
     private double valorCondominio;
 
@@ -123,12 +125,12 @@ public class Imovel {
         this.quantidadeQuartos = quantidadeQuartos;
     }
 
-    public String getQuantidadeSeguranca() {
-        return quantidadeSeguranca;
+    public List<String> getItensSeguranca() {
+        return itensSeguranca;
     }
 
-    public void setQuantidadeSeguranca(String quantidadeSeguranca) {
-        this.quantidadeSeguranca = quantidadeSeguranca;
+    public void setItensSeguranca(List<String> itensSeguranca) {
+        this.itensSeguranca = itensSeguranca;
     }
 
     public double getValorAluguel() {

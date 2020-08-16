@@ -16,7 +16,7 @@ public class ImovelDAO {
         for(Imovel imovel : imovelList){
             if(imovel != null && imovel.getCodigo().equals(imovelNovo.getCodigo())){
                 // Já existe um imovel com esse código
-                return false; // interrompe o metodo
+                return false; // interrompe o método
             }
         }
 
@@ -39,7 +39,7 @@ public class ImovelDAO {
 
                 imovel.setQuantidadeGaragens(imovelAtualizado.getQuantidadeGaragens());
                 imovel.setQuantidadeQuartos(imovelAtualizado.getQuantidadeQuartos());
-                imovel.setQuantidadeSeguranca(imovelAtualizado.getQuantidadeSeguranca());
+                imovel.setItensSeguranca(imovelAtualizado.getItensSeguranca());
                 imovel.setQuantidadeSuites(imovelAtualizado.getQuantidadeSuites());
 
                 imovel.setTipo(imovelAtualizado.getTipo());

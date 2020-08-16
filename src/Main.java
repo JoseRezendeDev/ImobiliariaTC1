@@ -4,10 +4,7 @@ import model.Cliente;
 import model.Imovel;
 
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     private static Scanner scanner;
@@ -67,25 +64,29 @@ public class Main {
     }
 
     private static void inserirImovel(){
-        Imovel imovel = new Imovel();
-        if(imovelDAO.incluirImovel(imovel)){
-            System.out.println("Imóvel incluído com sucesso!");
-        }else{
-            System.out.println("Ops! Algo de errado não deu certo! Verifique as informações do imóvel");
+        System.out.println("\nINSERIR IMÓVEL\n");
+        Imovel imovel = obterInformacoesImovel();
+
+        while (!imovelDAO.incluirImovel(imovel)){
+            System.out.println("\nCódigo inválido! Insira um novo código para esse imóvel");
+            System.out.println("Código: ");
+            imovel.setCodigo(scanner.nextLine());
         }
+
+        System.out.println("\nImóvel incluído com sucesso!");
     }
 
     private static void alterarImovel(){
-        Imovel imovel = new Imovel();
+        System.out.println("\nALTERAR IMÓVEL\n");
+        Imovel imovel = obterInformacoesImovel();
 
-        System.out.println("Código do imóvel que deseja alterar: ");
-        String codigo = scanner.next();
-
-        if(imovelDAO.alterarImovel(codigo, imovel)){
-            System.out.println("Imóvel de código "+codigo+" foi alterado com sucesso!");
-        }else{
-            System.out.println("Não foi possível encontrar imóvel com esse código :(");
+        while (!imovelDAO.alterarImovel(imovel.getCodigo(), imovel)){
+            System.out.println("Não foi encontrado um imóvel com esse código!");
+            System.out.println("Digite um código já existente: ");
+            imovel.setCodigo(scanner.nextLine());
         }
+
+        System.out.println("Imóvel de código "+imovel.getCodigo()+" foi alterado com sucesso!");
     }
 
     private static void excluirImovel(){
@@ -118,16 +119,127 @@ public class Main {
     }
 
     public static void exibirInformacoesImovel(Imovel imovel){
+        System.out.println("Código do imóvel " + imovel.getCodigo());
         System.out.println("Tipo do imóvel: " + imovel.getTipo());
         System.out.println("Descrição: " + imovel.getDescricao());
-        System.out.println("\n");
         System.out.print("Rua: " + imovel.getRua());
-        System.out.print(", Número: " + imovel.getNumero());
-        System.out.println("Cidade: " + imovel.getCidade());
-        System.out.println("\n");
+        System.out.println(", Número: " + imovel.getNumero());
+        System.out.print("Cidade: " + imovel.getCidade());
+        System.out.println("Estado " + imovel.getEstado());
+        System.out.println("Itens de segurança: " + String.join(",", imovel.getItensSeguranca()));
         System.out.println("Valor aluguel: " + imovel.getValorAluguel());
         System.out.println("Valor condomínio: " + imovel.getValorCondominio());
-        System.out.println("\n\n");
+    }
+
+    public static Imovel obterInformacoesImovel() {
+        Imovel imovel = new Imovel();
+        scanner.nextLine();
+
+        System.out.print("Código: ");
+        imovel.setCodigo(scanner.nextLine());
+
+        System.out.println("Descrição: ");
+        imovel.setDescricao(scanner.nextLine());
+
+        System.out.println("Rua: ");
+        imovel.setRua(scanner.nextLine());
+
+        boolean valido = false;
+        while (!valido){
+            try{
+                System.out.println("Número:");
+                imovel.setNumero(Integer.parseInt(scanner.nextLine()));
+                valido = true;
+            }catch (Exception e){
+                System.out.println("Valor inválido! Digite novamente");
+                valido = false;
+            }
+        }
+
+        System.out.println("Bairro: ");
+        imovel.setBairro(scanner.nextLine());
+
+        System.out.println("Cidade: ");
+        imovel.setCidade(scanner.nextLine());
+
+        System.out.println("Estado: ");
+        imovel.setEstado(scanner.nextLine());
+
+        System.out.println("Pais: ");
+        imovel.setPais(scanner.nextLine());
+
+        System.out.println("CEP: ");
+        imovel.setCep(scanner.nextLine());
+
+        System.out.println("Tipo: ");
+        imovel.setTipo(scanner.nextLine());
+
+        valido = false;
+        while (!valido){
+            try{
+                System.out.println("Quantidade de garagens: ");
+                imovel.setQuantidadeGaragens(Integer.parseInt(scanner.nextLine()));
+                valido = true;
+            }catch (Exception e){
+                System.out.println("Valor inválido! Digite novamente\n");
+                valido = false;
+            }
+        }
+
+        valido = false;
+        while (!valido){
+            try{
+                System.out.println("Quantidade de suites: ");
+                imovel.setQuantidadeSuites(Integer.parseInt(scanner.nextLine()));
+                valido = true;
+            }catch (Exception e){
+                System.out.println("Valor inválido! Digite novamente\n");
+                valido = false;
+            }
+        }
+
+        valido = false;
+        while (!valido){
+            try{
+                System.out.println("Quantidade de quartos: ");
+                imovel.setQuantidadeQuartos(Integer.parseInt(scanner.nextLine()));
+                valido = true;
+            }catch (Exception e){
+                System.out.println("Valor inválido! Digite novamente\n");
+                valido = false;
+            }
+        }
+
+        System.out.println("Itens de segurança: (separados por vírgula)");
+        String[] itens = scanner.nextLine().split(",");
+        List<String> itensList = Arrays.asList(itens);
+        imovel.setItensSeguranca(itensList);
+
+        valido = false;
+        while (!valido){
+            try{
+                System.out.println("Valor aluguel: ");
+                imovel.setValorAluguel(Double.parseDouble(scanner.nextLine()));
+                valido = true;
+            }catch (Exception e){
+                System.out.println("Valor inválido! Digite novamente\n");
+                valido = false;
+            }
+        }
+
+        valido = false;
+        while (!valido){
+            try{
+                System.out.println("Valor condomínio: ");
+                imovel.setValorCondominio(Double.parseDouble(scanner.nextLine()));
+                valido = true;
+            }catch (Exception e){
+                System.out.println("Valor inválido! Digite novamente\n");
+                valido = false;
+            }
+        }
+
+        return imovel;
     }
 
     public static void exibirInformacoesCliente(Cliente cliente){
@@ -142,7 +254,6 @@ public class Main {
         System.out.println("Telefones: ");
         for (String s : cliente.getTelefones())
             System.out.println(s);
-        System.out.println("\n\n");
     }
 
     private static void listarTodosClientes() {
