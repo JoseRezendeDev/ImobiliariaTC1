@@ -104,9 +104,11 @@ public class Main {
         String codigo = scanner.next();
         Imovel imovel = imovelDAO.getImovel(codigo);
 
-        System.out.println("_________ Informações do imóvel _________");
+        if (imovel != null) {
             exibirInformacoesImovel(imovel);
-        System.out.println("__________________");
+        } else {
+            System.out.println("Imóvel não encontrado");
+        }
     }
 
     private static void listarTodosImoveis(){
@@ -297,8 +299,6 @@ public class Main {
 
         System.out.println("Nome: ");
         cliente.setNome(scanner.next());
-        System.out.println("CPF: ");
-        cliente.setCpf(scanner.next());
 
         System.out.println("Data de nascimento: ");
         boolean dataValida = false;

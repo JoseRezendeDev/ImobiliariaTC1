@@ -19,7 +19,7 @@ public class ClienteDAO {
 
     public void alterarCliente(String cpf, Cliente clienteAtualizado) {
         for (Cliente cliente : clientes) {
-            if (cliente.getCpf() == cpf) {
+            if (cliente.getCpf().equalsIgnoreCase(cpf)) {
                 try {
                     cliente.setDataNascimento(clienteAtualizado.getDataNascimento().toString());
                     cliente.setNome(clienteAtualizado.getNome());

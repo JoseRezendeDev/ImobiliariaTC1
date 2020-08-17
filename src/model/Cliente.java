@@ -39,8 +39,8 @@ public class Cliente {
         this.dataNascimento = new SimpleDateFormat("dd/MM/yyyy").parse(dataNascimento);
     }
 
-    public Enum<Sexo> getSexo() {
-        return sexo;
+    public String getSexo() {
+        return sexo.toString();
     }
 
     public void setSexo(String sexo) throws Exception {
