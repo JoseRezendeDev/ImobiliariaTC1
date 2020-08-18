@@ -7,7 +7,28 @@
       <change beforePath="$PROJECT_DIR$/ImobiliariaTC1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ImobiliariaTC1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Imovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Imovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoEscolaDan/src/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoEscolaDan/src/Aula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoEscolaDan/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoEscolaDan/src/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClienteDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JoseRezendeTC1ProvaJUnit/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JoseRezendeTC1ProvaJUnit/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/RegrasDesconto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/out/production/RegrasDesconto/RegrasDesconto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/out/production/RegrasDesconto/RegrasDescontoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/src/RegrasDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegrasDesconto/src/RegrasDescontoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/ClienteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/ClienteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ClienteTest.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +36,129 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-275">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/ClienteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-803">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="113" column="44" selection-start-line="113" selection-start-column="44" selection-end-line="113" selection-end-column="44" />
+              <folding>
+                <element signature="method#main#0;class#Main#0" />
+                <element signature="e#527#1852#1" />
+                <element signature="e#653#1237#1" />
+                <element signature="e#693#1223#0" />
+                <element signature="e#1263#1842#1" />
+                <element signature="e#1303#1828#0" />
+                <element signature="method#inserirImovel#0;class#Main#0" />
+                <element signature="e#2050#2248#1" />
+                <element signature="method#alterarImovel#0;class#Main#0" />
+                <element signature="e#2529#2738#1" />
+                <element signature="method#excluirImovel#0;class#Main#0" />
+                <element signature="e#3037#3136#1" />
+                <element signature="e#3140#3241#1" />
+                <element signature="method#listarUmImovel#0;class#Main#0" />
+                <element signature="e#3481#3537#1" />
+                <element signature="e#3543#3611#1" />
+                <element signature="method#listarTodosImoveis#0;class#Main#0" />
+                <element signature="method#exibirInformacoesImovel#0;class#Main#0" />
+                <element signature="method#obterInformacoesImovel#0;class#Main#0" />
+                <element signature="method#exibirInformacoesCliente#0;class#Main#0" />
+                <element signature="method#listarTodosClientes#0;class#Main#0" />
+                <element signature="method#listarUmCliente#0;class#Main#0" />
+                <element signature="method#excluirCliente#0;class#Main#0" />
+                <element signature="method#alterarCliente#0;class#Main#0" />
+                <element signature="method#inserirCliente#0;class#Main#0" />
+                <element signature="method#exibirMenu#0;class#Main#0" />
+                <element signature="method#exibirSubmenu#0;class#Main#0" />
+                <element signature="method#exibirSubmenuClientes#0;class#Main#0" />
+                <element signature="method#exibirSubmenuImoveis#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Sexo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/ClienteDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-512">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dao/ClienteDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/ImovelDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Imovel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +174,63 @@
   </component>
   <component name="ProjectId" id="1fjBzHeASIzbtLIj4d1CXGJZlmh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/dao/ClienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/model/ClienteTest.java" />
+        <option value="$PROJECT_DIR$/src/dao/ClienteDAOTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectId" id="1fjBzHeASIzbtLIj4d1CXGJZlmh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+>>>>>>> b3fe08fe16b21a61fac4bd6a3ecddf5f56059307
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,6 +259,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dao" />
       <recent name="model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -73,6 +275,21 @@
       </method>
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ClienteDAOTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+>>>>>>> b3fe08fe16b21a61fac4bd6a3ecddf5f56059307
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -130,8 +347,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClienteDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImobiliariaTC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.ClienteDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteDAOTest.alterarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImobiliariaTC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.ClienteDAOTest" />
+      <option name="METHOD_NAME" value="alterarCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteDAOTest.excluirCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImobiliariaTC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.ClienteDAOTest" />
+      <option name="METHOD_NAME" value="excluirCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteDAOTest.inserirCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImobiliariaTC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.ClienteDAOTest" />
+      <option name="METHOD_NAME" value="inserirCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClienteDAOTest" />
+        <item itemvalue="JUnit.ClienteDAOTest.excluirCliente" />
+        <item itemvalue="JUnit.ClienteDAOTest.alterarCliente" />
+        <item itemvalue="JUnit.ClienteDAOTest.inserirCliente" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ImovelTest" />
         <item itemvalue="JUnit.ImovelTest.setQuantidadeSuites" />
@@ -157,6 +441,66 @@
       <workItem from="1597705706522" duration="6571000" />
     </task>
     <servers />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="TestHistory">
+    <history-entry file="ClienteTest_getSetEmails - 2020.08.17 at 20h 01m 16s.xml">
+      <configuration name="ClienteTest.getSetEmails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteTest_getSetEmails - 2020.08.17 at 20h 02m 51s.xml">
+      <configuration name="ClienteTest.getSetEmails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteTest_getSetTelefones - 2020.08.17 at 20h 02m 59s.xml">
+      <configuration name="ClienteTest.getSetTelefones" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteTest_getSetEmails - 2020.08.17 at 20h 07m 48s.xml">
+      <configuration name="ClienteTest.getSetEmails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteTest - 2020.08.17 at 20h 09m 31s.xml">
+      <configuration name="ClienteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteDAOTest_inserirCliente - 2020.08.17 at 20h 24m 45s.xml">
+      <configuration name="ClienteDAOTest.inserirCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteDAOTest_alterarCliente - 2020.08.17 at 20h 57m 15s.xml">
+      <configuration name="ClienteDAOTest.alterarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClienteDAOTest - 2020.08.17 at 20h 59m 57s.xml">
+      <configuration name="ClienteDAOTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.81178397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.83469725" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -198,13 +542,156 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="347" y="78" width="587" height="534" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1597582676101" />
+<<<<<<< HEAD
     <state x="484" y="102" key="refactoring.ChangeSignatureDialog" timestamp="1597707537923">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="484" y="102" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1597707537923" />
+=======
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="113" column="44" selection-start-line="113" selection-start-column="44" selection-end-line="113" selection-end-column="44" />
+          <folding>
+            <element signature="method#main#0;class#Main#0" />
+            <element signature="e#527#1852#1" />
+            <element signature="e#653#1237#1" />
+            <element signature="e#693#1223#0" />
+            <element signature="e#1263#1842#1" />
+            <element signature="e#1303#1828#0" />
+            <element signature="method#inserirImovel#0;class#Main#0" />
+            <element signature="e#2050#2248#1" />
+            <element signature="method#alterarImovel#0;class#Main#0" />
+            <element signature="e#2529#2738#1" />
+            <element signature="method#excluirImovel#0;class#Main#0" />
+            <element signature="e#3037#3136#1" />
+            <element signature="e#3140#3241#1" />
+            <element signature="method#listarUmImovel#0;class#Main#0" />
+            <element signature="e#3481#3537#1" />
+            <element signature="e#3543#3611#1" />
+            <element signature="method#listarTodosImoveis#0;class#Main#0" />
+            <element signature="method#exibirInformacoesImovel#0;class#Main#0" />
+            <element signature="method#obterInformacoesImovel#0;class#Main#0" />
+            <element signature="method#exibirInformacoesCliente#0;class#Main#0" />
+            <element signature="method#listarTodosClientes#0;class#Main#0" />
+            <element signature="method#listarUmCliente#0;class#Main#0" />
+            <element signature="method#excluirCliente#0;class#Main#0" />
+            <element signature="method#alterarCliente#0;class#Main#0" />
+            <element signature="method#inserirCliente#0;class#Main#0" />
+            <element signature="method#exibirMenu#0;class#Main#0" />
+            <element signature="method#exibirSubmenu#0;class#Main#0" />
+            <element signature="method#exibirSubmenuClientes#0;class#Main#0" />
+            <element signature="method#exibirSubmenuImoveis#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Sexo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ImovelDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Imovel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ClienteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ClienteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ClienteDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> b3fe08fe16b21a61fac4bd6a3ecddf5f56059307
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -217,6 +704,17 @@
         </settings>
       </state>
       <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
