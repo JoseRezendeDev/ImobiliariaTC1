@@ -67,10 +67,12 @@ public class Main {
         System.out.println("\nINSERIR IMÓVEL\n");
         Imovel imovel = obterInformacoesImovel();
 
-        while (!imovelDAO.incluirImovel(imovel)){
-            System.out.println("\nCódigo inválido! Insira um novo código para esse imóvel");
+        boolean valido = false;
+        while (!valido){
+            System.out.println("\nInsira um novo código para esse imóvel");
             System.out.println("Código: ");
             imovel.setCodigo(scanner.nextLine());
+            valido = imovelDAO.incluirImovel(imovel);
         }
 
         System.out.println("\nImóvel incluído com sucesso!");
@@ -79,11 +81,11 @@ public class Main {
     private static void alterarImovel(){
         System.out.println("\nALTERAR IMÓVEL\n");
         Imovel imovel = obterInformacoesImovel();
-
-        while (!imovelDAO.alterarImovel(imovel.getCodigo(), imovel)){
-            System.out.println("Não foi encontrado um imóvel com esse código!");
-            System.out.println("Digite um código já existente: ");
-            imovel.setCodigo(scanner.nextLine());
+        boolean valido = false;
+        while (!valido){
+            System.out.println("Digite um código de um imóvel já existente que desja alterar: ");
+            String codigo = scanner.nextLine();
+            valido = imovelDAO.alterarImovel(codigo, imovel);
         }
 
         System.out.println("Imóvel de código "+imovel.getCodigo()+" foi alterado com sucesso!");

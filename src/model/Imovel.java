@@ -21,6 +21,32 @@ public class Imovel {
     private double valorAluguel;
     private double valorCondominio;
 
+    public Imovel(){}
+
+    public Imovel(
+            String codigo, String descricao, String rua, int numero, String bairro,
+            String cidade, String estado, String pais, String cep, String tipo,
+            int quantidadeGaragens, int quantidadeSuites, int quantidadeQuartos,
+            List<String> itensSeguranca, double valorAluguel, double valorCondominio
+    ){
+        this.codigo = codigo;
+        this.descricao = descricao;
+        this.rua = rua;
+        this.numero = numero;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.pais = pais;
+        this.cep = cep;
+        this.tipo = tipo;
+        this.quantidadeGaragens = quantidadeGaragens;
+        this.quantidadeSuites = quantidadeSuites;
+        this.quantidadeQuartos = quantidadeQuartos;
+        this.itensSeguranca = itensSeguranca;
+        this.valorAluguel = valorAluguel;
+        this.valorCondominio = valorCondominio;
+    }
+
     public String getCodigo() {
         return codigo;
     }
