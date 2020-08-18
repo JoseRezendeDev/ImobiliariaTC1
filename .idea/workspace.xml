@@ -230,7 +230,6 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
->>>>>>> b3fe08fe16b21a61fac4bd6a3ecddf5f56059307
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -274,7 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true"/>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -289,7 +289,6 @@
   </component>
   <component name="RunManager" selected="JUnit.ClienteDAOTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
->>>>>>> b3fe08fe16b21a61fac4bd6a3ecddf5f56059307
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -442,8 +441,6 @@
     </task>
     <servers />
   </component>
-<<<<<<< HEAD
-=======
   <component name="TestHistory">
     <history-entry file="ClienteTest_getSetEmails - 2020.08.17 at 20h 01m 16s.xml">
       <configuration name="ClienteTest.getSetEmails" configurationId="JUnit" />
@@ -542,12 +539,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="347" y="78" width="587" height="534" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1597582676101" />
-<<<<<<< HEAD
     <state x="484" y="102" key="refactoring.ChangeSignatureDialog" timestamp="1597707537923">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="484" y="102" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1597707537923" />
-=======
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
