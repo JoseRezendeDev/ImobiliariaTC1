@@ -1,6 +1,8 @@
 package model;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -21,7 +23,7 @@ public class ClienteTest {
     @DisplayName("Teste sexo certo")
     @Order(1)
     @ParameterizedTest
-    @ValueSource(strings = {"m", "f", "M", "F", "masculino", "feminino"})
+    @ValueSource(strings = {"m", "f", "M", "F", "masculino", "feminino", "MASCULINO", "FEMININO"})
     public void setSexoCerto(String sexo) throws Exception {
         cliente.setSexo(sexo);
         assertEquals(sexo, cliente.getSexo());
@@ -64,7 +66,7 @@ public class ClienteTest {
     @DisplayName("Teste salário")
     @Order(6)
     @ParameterizedTest
-    @ValueSource(doubles = {"1500.23", "2200.00"})
+    @ValueSource(doubles = {1500.23, 2200.00})
     public void getSetSalario(Double salario) {
         cliente.setSalario(salario);
         assertEquals(salario, cliente.getSalario());
