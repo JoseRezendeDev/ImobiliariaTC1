@@ -4,12 +4,14 @@ import model.Cliente;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
 import java.text.ParseException;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ClienteDAOTest {
     private ClienteDAO clienteDAO;
 

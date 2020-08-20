@@ -1,9 +1,6 @@
 package model;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -12,6 +9,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class ClienteTest {
     private static Cliente cliente;
 
@@ -22,8 +20,8 @@ public class ClienteTest {
 
     @DisplayName("Teste sexo certo")
     @Order(1)
-    // @ParameterizedTest
-    // @ValueSource(strings = {"m", "f", "M", "F", "masculino", "feminino"})
+    @ParameterizedTest
+    @ValueSource(strings = {"m", "f", "M", "F", "masculino", "feminino"})
     public void setSexoCerto(String sexo) throws Exception {
         cliente.setSexo(sexo);
         assertEquals(sexo, cliente.getSexo());
@@ -31,16 +29,16 @@ public class ClienteTest {
 
     @DisplayName("Teste sexo errado")
     @Order(2)
-    // @ParameterizedTest
-    // @ValueSource(strings = {"blablabla", "ads"})
+    @ParameterizedTest
+    @ValueSource(strings = {"blablabla", "ads"})
     public void setSexoErrado(String sexo) throws Exception {
         assertThrows(Exception.class, () -> cliente.setSexo(sexo));
     }
 
     @DisplayName("Teste CPF")
     @Order(3)
-    // @ParameterizedTest
-    // @ValueSource(strings = {"11144455566", "11122233344"})
+    @ParameterizedTest
+    @ValueSource(strings = {"11144455566", "11122233344"})
     public void getSetCpf(String cpf) {
         cliente.setCpf(cpf);
         assertEquals(cpf, cliente.getCpf());
@@ -48,8 +46,8 @@ public class ClienteTest {
 
     @DisplayName("Teste data de nascimento certo")
     @Order(4)
-    // @ParameterizedTest
-    // @ValueSource(strings = {"12/04/1999", "04/11/2001"})
+    @ParameterizedTest
+    @ValueSource(strings = {"12/04/1999", "04/11/2001"})
     public void getSetDataNascimentoCerto(String data) throws ParseException {
         cliente.setDataNascimento(data);
         assertEquals(data, cliente.getDataNascimento());
@@ -57,16 +55,16 @@ public class ClienteTest {
 
     @DisplayName("Teste data de nascimento errado")
     @Order(5)
-    // @ParameterizedTest
-    // @ValueSource(strings = {"blablabla", "1234124234"})
+    @ParameterizedTest
+    @ValueSource(strings = {"blablabla", "1234124234"})
     public void getSetDataNascimentoErrado(String data) throws ParseException {
         assertThrows(ParseException.class, () -> cliente.setDataNascimento(data));
     }
 
     @DisplayName("Teste salário")
     @Order(6)
-    // @ParameterizedTest
-    // @ValueSource(doubles = {"1500.23", "2200.00"})
+    @ParameterizedTest
+    @ValueSource(doubles = {"1500.23", "2200.00"})
     public void getSetSalario(Double salario) {
         cliente.setSalario(salario);
         assertEquals(salario, cliente.getSalario());
