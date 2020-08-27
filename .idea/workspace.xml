@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677a830e-b9bc-43b0-95c7-02186ccaf938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imobiliaria.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainSelenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firefoxDriver/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromeDriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromeDriver/chromedriverAntigo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ClienteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ImovelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ImovelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImobiliariaTC1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ImobiliariaTC1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imobiliaria.html" beforeDir="false" afterPath="$PROJECT_DIR$/imobiliaria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/MainSelenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/MainSelenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ClienteDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ClienteDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ImovelDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ImovelDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ImovelDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/dao/ImovelDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/Imovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/Imovel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/Sexo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ImobiliariaTC1/model/Sexo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainSelenium.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,94 +28,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/ClienteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/ClienteDAOTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainSelenium.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imobiliaria.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/ImovelDAOTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/ImovelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Imovel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,71 +41,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/model/ClienteTest.java" />
-        <option value="$PROJECT_DIR$/src/model/ImovelTest.java" />
-        <option value="$PROJECT_DIR$/src/MainSelenium.java" />
-        <option value="$PROJECT_DIR$/imobiliaria.html" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="699" />
-    <option name="height" value="744" />
-  </component>
   <component name="ProjectId" id="1fjBzHeASIzbtLIj4d1CXGJZlmh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
-              <item name="chromeDriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImobiliariaTC1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImobiliariaTC1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -197,7 +61,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/client-combined-3.141.59.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webdriver/libs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,7 +69,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -222,26 +86,17 @@
       <recent name="C:\Users\zevir\IdeaProjects\ImobiliariaTC1\chromeDriver" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.MainSelenium">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ImobiliariaTC1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainSelenium" />
+      <module name="ImobiliariaTC1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,20 +110,6 @@
       <option name="TEST_OBJECT" value="class" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ImobiliariaTC1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainSelenium" />
-      <module name="ImobiliariaTC1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,7 +170,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -345,45 +186,15 @@
       <workItem from="1597147286848" duration="7578000" />
       <workItem from="1597670285337" duration="918000" />
       <workItem from="1597705706522" duration="6571000" />
+      <workItem from="1598535444145" duration="3068000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39934534" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.65957445" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
@@ -393,21 +204,33 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="29" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1597707237592" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1597754546081">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="-853" y="79" width="571" height="579" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1598536700712">
+      <screen x="-1366" y="0" width="1366" height="738" />
     </state>
+    <state x="-853" y="79" width="571" height="579" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598536700712" />
+    <state x="-977" y="110" key="FileChooserDialogImpl" timestamp="1598536697933">
+      <screen x="-1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="-977" y="110" key="FileChooserDialogImpl/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598536697933" />
+    <state width="1323" height="287" key="GridCell.Tab.0.bottom" timestamp="1598538411520">
+      <screen x="-1366" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="287" key="GridCell.Tab.0.bottom/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598538411520" />
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1597754546081" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1597754546081">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1323" height="287" key="GridCell.Tab.0.center" timestamp="1598538411520">
+      <screen x="-1366" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="287" key="GridCell.Tab.0.center/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598538411520" />
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1597754546081" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1597754546081">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1323" height="287" key="GridCell.Tab.0.left" timestamp="1598538411520">
+      <screen x="-1366" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="287" key="GridCell.Tab.0.left/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598538411520" />
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1597754546081" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1597754546081">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1323" height="287" key="GridCell.Tab.0.right" timestamp="1598538411520">
+      <screen x="-1366" y="0" width="1366" height="738" />
     </state>
+    <state width="1323" height="287" key="GridCell.Tab.0.right/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598538411520" />
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1597754546081" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1597753142179">
       <screen x="0" y="0" width="1280" height="689" />
@@ -425,6 +248,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1597753142178" />
+    <state x="-1203" y="0" key="SettingsEditor" timestamp="1598536709543">
+      <screen x="-1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="-1203" y="0" key="SettingsEditor/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598536709543" />
     <state x="376" y="237" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597670404956">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -445,178 +272,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="484" y="102" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1597707537923" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>94</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/ClienteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/ClienteDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/ImovelDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ImovelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/client-combined-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Imovel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imobiliaria.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainSelenium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ImobiliariaTC1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>libs</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="-1020" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1598535276682">
+      <screen x="-1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="-1020" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1280.689/-1366.0.1366.738@-1366.0.1366.738" timestamp="1598535276682" />
   </component>
 </project>
