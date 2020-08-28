@@ -67,7 +67,6 @@ public class MainSelenium {
         }
 
         Thread.sleep(1000);
-        ruaImovel.clear();
         if (ruaImovel.getAttribute("value").equals("")) {
             System.out.println("Rua foi apagada");
         } else {
@@ -81,6 +80,16 @@ public class MainSelenium {
         if (numeroEndereco.isEnabled()) {
             numeroEndereco.sendKeys("Descrição do imóvel");
         }
+
+        ruaImovel.clear();
+        ruaImovel.sendKeys("Rua Idamazia Ferreira Nascimento");
+        driver.findElement(By.id("numeroEndereco")).sendKeys("32");
+        driver.findElement(By.id("bairroEndereco")).sendKeys("Vicent Quaranta");
+        driver.findElement(By.id("CEPEndereco")).sendKeys("14150-110");
+        driver.findElement(By.id("cidadeEndereco")).sendKeys("Sertão");
+        driver.findElement(By.id("estadoEndereco")).sendKeys("SP");
+        driver.findElement(By.id("paisEndereco")).sendKeys("Brasil");
+        driver.findElement(By.id("aluguelEndereco")).sendKeys("Brasil");
 
         Thread.sleep(3000);
 
