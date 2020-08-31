@@ -1,5 +1,5 @@
 # ImobiliariaTC1
-Imobiliaria JUnit TC1
+## Parte 1 - JUnit
 
 Trabalho: Tema-07 → Imobiliária
 Item-a: Considerando o contexto de um sistema de Imobiliária, crie classes e métodos para
@@ -29,3 +29,22 @@ cada funcionalidade que devem conter:
 → testes das listas ou vetores criados (use o assert indicado para testes de listas e
 vetores aprendidos na disciplina)
 → ordene a execução dos casos de testes e os nomeie.
+
+## Parte 2 - Selenium
+Para execução desta segunda parte, a sua dupla deverá:
+
+1 - Desenvolver uma página web usando HTML e CSS do tema da primeira parte do trabalho. Observe que o grupo deverá implementar somente a interface, não sendo necessário o desenvolvimento da lógica do negócio;
+
+2 - Desenvolver casos de testes para a página Web usando Selenium WebDriver que deverão contemplar:
+
+    Verificação de textos em campos dos formulários;
+    Verificação se os links estão com a url esperada;
+    Verificação de valores de itens de drop-down list.
+
+3 - O grupo deve criar situações que permita desenvolver ao menos dois casos de testes por verificação solicitada no item anterior;
+
+4 - O grupo pode fazer os testes no navegador de sua preferência;
+
+5 - A dupla deverá postar no Moodle o código fonte HTML/CSS, bem como o código fonte dos testes, até o dia 31/08/2020;
+
+6 - A apresentação das duas partes do trabalho será no dia 03/09 com horário a ser agendado.
