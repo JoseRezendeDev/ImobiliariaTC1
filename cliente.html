@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Imobiliária</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
+<body>
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">IMOBILIÁRIA</h1>
+            <br>
+            <h2 class="subtitle">Cliente</h2>
+            Nome: <input class="input is-primary is-rounded column is-one-third is-small" id="nome" type="text">
+            CPF:<input class="input is-primary is-rounded column is-one-third is-small" id="cpf" type="text">
+            Data de nascimento: <input id="dataNascimento" type="date">
+            <br>
+            Sexo:
+            <input class="radio" id="sexoMasculino" type="radio" name="sexo">Masculino</input>
+            <input class="radio" id="sexoFeminino" type="radio" name="sexo">Feminino</input>
+            <br>
+            Salário:
+            <select class="select is-small" id="salario">
+                <option id="menosDe1">Menos de R$1.000,00</option>
+                <option id="entre1e2">Entre R$1.000,00 e R$2.000,00</option>
+                <option id="entre2e3">Entre R$2.000,00 e R$3.000,00</option>
+                <option id="entre3e4">Entre R$3.000,00 e R$4.000,00</option>
+                <option id="entre4e5">Entre R$4.000,00 e R$5.000,00</option>
+                <option id="entre5e10">Entre R$5.000,00 e R$10.000,00</option>
+                <option id="maisDe10">Mais de R$10.000,00</option>
+            </select>
+            <br>
+            Emails: <input class="input is-primary is-rounded column is-one-third is-small" id="emails" type="text">
+            Telefones: <input class="input is-primary is-rounded column is-one-third is-small" id="telefones"
+                              type="text">
+        </div>
+    </div>
+</section>
+</body>
+</html>
